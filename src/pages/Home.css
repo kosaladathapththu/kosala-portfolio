@@ -1,0 +1,39 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: #121212;
+  color: white;
+  min-height: 90vh;
+}
+
+.home-text {
+  max-width: 50%;
+}
+
+.home-text h2 {
+  font-size: 2.5rem;
+  color: #00ffff;
+  margin-bottom: 1rem;
+}
+
+.home-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.download-btn {
+  padding: 0.75rem 1.5rem;
+  background: #00ffff;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.home-img img {
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
+}
